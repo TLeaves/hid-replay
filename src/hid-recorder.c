@@ -97,7 +97,7 @@ static struct hid_recorder_state state = {0};
 static int usage(void)
 {
 	printf("USAGE:\n");
-	printf("   %s [OPTION] [/dev/hidrawX] [[/dev/hidrawY] ... ]\n", program_invocation_short_name);
+	printf("   hid_recorder [OPTION] [/dev/hidrawX] [[/dev/hidrawY] ... ]\n");
 
 	printf("\n");
 	printf("where OPTION is either:\n");

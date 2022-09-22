@@ -86,7 +86,7 @@ static FILE *fp;
 static int usage(void)
 {
 	printf("USAGE:\n");
-	printf("   %s [OPTION] filename\n", program_invocation_short_name);
+	printf("   hid_replay [OPTION] filename\n");
 
 	printf("\n");
 	printf("where OPTION is either:\n");
